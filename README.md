@@ -11,7 +11,7 @@ The Latest demo can be found here:
 Plugins Used
 ------------
 
-<a href="https://github.com/amadeus/impact-layers">Layers</a>
-<a href="https://github.com/hurik/impact-astar-for-entities">Impact astar for entities</a>
+-   <a href="https://github.com/amadeus/impact-layers">Layers</a>
+-   <a href="https://github.com/hurik/impact-astar-for-entities">Impact astar for entities</a>
 (modified)
-<a href="https://github.com/killbot/Impactjs_screenshaker">Screen shaker</a>
+-   <a href="https://github.com/killbot/Impactjs_screenshaker">Screen shaker</a>
