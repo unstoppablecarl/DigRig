@@ -1,7 +1,7 @@
 DigRig
 ======
 
-Destructable creatble terrain Sidescroller using <a href="http://impactjs.com/">impactjs</a>
+Destructable creatable terrain Sidescroller using <a href="http://impactjs.com/">impactjs</a>
 All art assets are currently placeholders.
 
 The Latest demo can be found here:
