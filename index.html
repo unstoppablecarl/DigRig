@@ -1,37 +1,49 @@
+
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Dig Rig</title>
-        <style type="text/css">
-            html,body {
-                background-color: #000;
-                color: #fff;
-                font-family: helvetica, arial, sans-serif;
-                margin: 0;
-                padding: 0;
-                font-size: 12pt;
-            }
-
-            #canvas {
-/*                float:left;*/
-
-                position: absolute;
-                left: 0;
-                right: 0;
-                top: 0;
-                bottom: 0;
-                margin: 1px auto;
-                border: 1px solid #555;
-            }
-
-        </style>
+        <title>Dig Rig | A Game by Unstoppable Carl</title>
+        <link href="css/normalize.css" media="all" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="debug.css">
-
-
-        <script type="text/javascript" src="game.min.js"></script>
-
+        <link href="css/style.css" media="all" rel="stylesheet" type="text/css">
+    
+        <script type="text/javascript" src="lib/impact/impact.js"></script>
+        <script type="text/javascript" src="lib/game/main.js"></script>
+    
     </head>
     <body>
-        <canvas id="canvas"></canvas>
+        <div class="page clearfix">
+            <div class="canvas-container">
+                <canvas id="canvas"></canvas>
+            </div>
+            <div id="level-list" class="block level-list">
+                <h3>Levels</h3>
+                <ul>
+                    <li>
+                        <a href="#" data-level-name="test">Test</a>
+                    </li>
+                    <li>
+                        <a href="#" data-level-name="tunnel">Tunnel Test</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="block instructions">
+                <h3>Instructions</h3>
+                <p>
+                    <strong>Move:</strong> WASD , Arrow Keys<br>
+                    <strong>Jump:</strong> Space, Up,  W<br>
+                    <strong>Shoot Destroy:</strong> Click, hold to charge<br>
+                    <strong>Shoot Create:</strong> Right Click, hold to charge<br>
+                </p>
+            </div>
+            <div class="clear">
+                <p><a href="https://github.com/unstoppablecarl/DigRig">Github</a>, <a href="https://twitter.com/unstoppableCarl">@unstoppableCarl</a></p>
+            </div>
+            
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/lib/jquery-1.9.2.min.js"><\/script>')</script>
+        <script type="text/javascript" src="js/change-level.js"></script>
     </body>
 </html>
+
